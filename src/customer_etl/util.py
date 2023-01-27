@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 from loguru import logger as log
-import sqlalchemy
-import pymongo
+import sqlalchemy # connection to postgres
+import pymongo # connection to mongo
 
 local_mongo_string = "mongodb://localhost:27017/"
 postgres_connection_string = 'postgresql://localhost:5432/postgres'
